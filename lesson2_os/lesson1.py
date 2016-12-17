@@ -44,9 +44,15 @@ class Counter:
 if __name__ == "__main__":
     py_string()
     py_list()
-    print py_list().__doc__
+
     
     a = Counter(3,8)
+    print a.__dict__
+    
+    print 2 ** 10
+    print 8 >> 2
+    
+    
     for c in a :
         print c 
     print "next..."
